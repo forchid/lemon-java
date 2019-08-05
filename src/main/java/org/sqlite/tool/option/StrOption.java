@@ -7,6 +7,10 @@ package org.sqlite.tool.option;
  */
 public class StrOption extends Option<String> {
     
+    public StrOption(String label, String message) {
+        this(label, null, message);
+    }
+    
     public StrOption(String label, String value, String message) {
         super(label, value, message);
     }
